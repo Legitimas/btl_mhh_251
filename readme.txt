@@ -2,6 +2,7 @@ NOTEs:
 about ILP problem: convert net into .lp file, 
                     then call cplex.exe to solve and write in .sol,
                     then parse .sol file to get ILP solution.
+(cplex.exe is not available in this repo))
 if cplex.exe (windows) did not run, you possibly need:
     Microsoft Visual C++ 2015-2022 Redistributable (x64)
     Microsoft Windows Desktop Runtime - 8.0.11 (x64)
@@ -20,5 +21,6 @@ You can either use makefile to compile and run by
 make clean
 make
 ./main.exe
+
 
 or use intellisense with c_cpp_properties.json configurated
